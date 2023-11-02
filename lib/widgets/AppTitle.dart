@@ -4,7 +4,7 @@ class AppTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-    'WAKI WAKI',
+    'WAKIWAKI',
     style: TextStyle(
     color: Colors.black87, // Text color
     fontSize: 45.0, // Font size
