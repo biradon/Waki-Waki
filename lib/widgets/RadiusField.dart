@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
 
-class InputField extends StatelessWidget {
+class RadiusField extends StatelessWidget {
   final String hintText;
   final double horizontal;
   final double vertical;
-  final TextEditingController userInputController; // Add this line
 
-  const InputField({
+  const RadiusField({
     required this.hintText,
     required this.horizontal,
     required this.vertical,
-    required this.userInputController, // Add this line
   });
 
   @override
@@ -21,7 +19,6 @@ class InputField extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: horizontal, vertical: vertical),
             child: TextField(
-            controller: userInputController,
               decoration: InputDecoration(
                 border: const OutlineInputBorder(
                   borderSide: BorderSide(
